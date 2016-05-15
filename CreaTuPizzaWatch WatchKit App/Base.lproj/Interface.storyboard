@@ -122,7 +122,6 @@
                     </items>
                     <connections>
                         <outlet property="cheeseTable" destination="TMm-ZT-vVZ" id="AOp-Wg-u9P"/>
-                        <segue destination="2qu-Ve-2W4" kind="relationship" relationship="nextPage" id="WOU-cT-Y1b"/>
                     </connections>
                 </controller>
             </objects>
@@ -212,7 +211,6 @@
                         <outlet property="pimiento" destination="TUR-yW-5wY" id="Mqs-b4-NWr"/>
                         <outlet property="piña" destination="6jV-Nb-i8W" id="4n5-d6-Khe"/>
                         <outlet property="salchicha" destination="v4R-ME-lz9" id="6gJ-dG-LLA"/>
-                        <segue destination="0As-Mp-xq7" kind="relationship" relationship="nextPage" id="SvK-gX-r2G"/>
                     </connections>
                 </controller>
             </objects>
@@ -283,6 +281,27 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="1487" y="341"/>
+        </scene>
+        <!--ErrorInterfaceID-->
+        <scene sceneID="aQE-7L-8JO">
+            <objects>
+                <controller identifier="ErrorInterfaceID" id="hZD-aR-sWh" customClass="ErrorInterfaceController" customModule="CreaTuPizzaWatch_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="108.5" alignment="center" verticalAlignment="center" text="Debe escoger entre 1 y 5 ingredientes." textAlignment="center" numberOfLines="0" id="HbY-xr-NVV">
+                            <color key="textColor" red="0.95686274510000002" green="0.86954858349999997" blue="0.68785748020000004" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Aceptar" id="JyA-sG-vH3">
+                            <color key="titleColor" red="0.95686274510000002" green="0.86954858349999997" blue="0.68785748020000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="17"/>
+                            <connections>
+                                <action selector="dismissModalView" destination="hZD-aR-sWh" id="G1D-Kw-unn"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1226" y="743"/>
         </scene>
         <!--Final Interface Controller-->
         <scene sceneID="LRE-0Y-9pL">

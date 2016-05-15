@@ -15,6 +15,7 @@
 		5A3FC8C81CE7E6E1008C7006 /* FinalInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3FC8C71CE7E6E1008C7006 /* FinalInterfaceController.swift */; };
 		5A3FC8CB1CE7EAAE008C7006 /* PizzaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3FC8CA1CE7EAAE008C7006 /* PizzaCell.swift */; };
 		5A3FC8CD1CE7F8FC008C7006 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3FC8CC1CE7F8FC008C7006 /* Pizza.swift */; };
+		5AC67B731CE8E64D00753A40 /* ErrorInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC67B721CE8E64D00753A40 /* ErrorInterfaceController.swift */; };
 		5AC6B8701CE7ACD20010425A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC6B86F1CE7ACD20010425A /* AppDelegate.swift */; };
 		5AC6B8721CE7ACD20010425A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC6B8711CE7ACD20010425A /* ViewController.swift */; };
 		5AC6B8751CE7ACD20010425A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC6B8731CE7ACD20010425A /* Main.storyboard */; };
@@ -81,6 +82,7 @@
 		5A3FC8C71CE7E6E1008C7006 /* FinalInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalInterfaceController.swift; sourceTree = "<group>"; };
 		5A3FC8CA1CE7EAAE008C7006 /* PizzaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaCell.swift; sourceTree = "<group>"; };
 		5A3FC8CC1CE7F8FC008C7006 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		5AC67B721CE8E64D00753A40 /* ErrorInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorInterfaceController.swift; sourceTree = "<group>"; };
 		5AC6B86C1CE7ACD20010425A /* CreaTuPizzaWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreaTuPizzaWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC6B86F1CE7ACD20010425A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AC6B8711CE7ACD20010425A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				5A3FC8C31CE7E5EB008C7006 /* IngredientesInterfaceController.swift */,
 				5A3FC8C51CE7E608008C7006 /* ConfirmarInterfaceController.swift */,
 				5A3FC8C71CE7E6E1008C7006 /* FinalInterfaceController.swift */,
+				5AC67B721CE8E64D00753A40 /* ErrorInterfaceController.swift */,
 			);
 			name = Pizza;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				5A3FC8C81CE7E6E1008C7006 /* FinalInterfaceController.swift in Sources */,
 				5AC6B8991CE7ACD20010425A /* NotificationController.swift in Sources */,
 				5AC6B8971CE7ACD20010425A /* ExtensionDelegate.swift in Sources */,
+				5AC67B731CE8E64D00753A40 /* ErrorInterfaceController.swift in Sources */,
 				5A3FC8CD1CE7F8FC008C7006 /* Pizza.swift in Sources */,
 				5AC6B8951CE7ACD20010425A /* InterfaceController.swift in Sources */,
 				5A3FC8C21CE7E5D7008C7006 /* QuesoInterfaceController.swift in Sources */,

@@ -45,6 +45,14 @@ class IngredientesInterfaceController: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
+    
+    func continueConfirmation() ->  Bool{
+        if self.selectedIngredients.count == 0 || self.selectedIngredients.count > 5{
+            return false
+        } else {
+            return true
+        }
+    }
         
     @IBAction func jamonSeleccionado(value: Bool) {
         if value {
@@ -144,8 +152,12 @@ class IngredientesInterfaceController: WKInterfaceController {
     
     @IBAction func buttonAction() {
         
-        pizza.ingredientes = selectedIngredients
-        self.pushControllerWithName("ConfirmInterfaceID", context: pizza)
+        if continueConfirmation() {
+            pizza.ingredientes = selectedIngredients
+            self.pushControllerWithName("ConfirmInterfaceID", context: pizza)
+        } else {
+            self.presentControllerWithName("ErrorInterfaceID", context: nil)
+        }
     }
 
 }
